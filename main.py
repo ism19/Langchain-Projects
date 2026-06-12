@@ -9,6 +9,7 @@ load_dotenv()
 
 tavily = TavilyClient()
 
+@tool
 def search(query: str) -> str:
     """
     Tool for searching through internet
